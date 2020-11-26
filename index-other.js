@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-let badgeInfo = require("./badge");
+let badgeInfo = require("./utils/badge");
 
 /* list of items from user
 * project title
