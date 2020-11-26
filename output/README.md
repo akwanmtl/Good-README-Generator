@@ -1,10 +1,10 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]https://opensource.org/licenses/MIT)
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
-# Good-README-Generator
+# title of project
 
 ## Description 
 
-A program that generates a README template from the user's input
+description herer
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@ A program that generates a README template from the user's input
 
 ## Installation
 
-don't know
+instruction
 
 ## Usage 
 
-Easy way to generate readme
+asdaf
 
 ## License
 
-Good-README-Generator is under the terms of the [MIT License](https://opensource.org/licenses/MIT). 
+title of project is under the terms of the [WTFPL License](http://www.wtfpl.net/about/). 
 
 ## Contributing
 
-Myself
+safdasdf
 
 ## Tests
 
-testing 123
+asdfd
 
 ## Questions
 
-[Link to Github Profile](https://github.com/akwanmtl)
-For any question, you can reach me at akwan.mtl@gmail.com
+[Link to Github Profile](https://github.com/akwanmtl)<br/>
+For any question, you can reach me at asdfasdfasd
       

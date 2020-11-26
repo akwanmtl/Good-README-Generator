@@ -4,7 +4,7 @@ let badgeInfo = require('./badge');
 function generateMarkdown(data) {
   let badgeItem = badgeInfo[data.badge];
     
-  return `[![License: ${data.badge}](${badgeItem.img})]${badgeItem.url})
+  return `[![License: ${data.badge}](${badgeItem.img})](${badgeItem.url})
 
 # ${data.title}
 
@@ -43,7 +43,7 @@ ${data.tests}
 
 ## Questions
 
-[Link to Github Profile](https://github.com/${data.github})
+[Link to Github Profile](https://github.com/${data.github})<br/>
 For any question, you can reach me at ${data.email}
       `;
 }
