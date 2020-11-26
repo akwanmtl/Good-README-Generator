@@ -1,10 +1,10 @@
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]https://opensource.org/licenses/MIT)
 
-# 12345
+# Good-README-Generator
 
 ## Description 
 
-67890sdfadf
+A program that generates a README template from the user's input
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@
 
 ## Installation
 
-asdfadfkjasd
+don't know
 
 ## Usage 
 
-asdfasdfnioe
+Easy way to generate readme
 
 ## License
 
-to be completed
+Good-README-Generator is under the terms of the [MIT License](https://opensource.org/licenses/MIT). 
 
 ## Contributing
 
-sdfadsnfoianfe
+Myself
 
 ## Tests
 
-safnoisdfnaosdfnefa fsonaeinfe
+testing 123
 
 ## Questions
 
-[Link to Github Profile](https://github.com/feanofien )
-For any question, you can reach me at askdfasdfnei
+[Link to Github Profile](https://github.com/akwanmtl)
+For any question, you can reach me at akwan.mtl@gmail.com
       

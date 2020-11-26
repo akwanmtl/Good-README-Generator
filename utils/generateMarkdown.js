@@ -31,7 +31,7 @@ ${data.usage}
 
 ## License
 
-${badgeItem.license}
+${data.title} is under the terms of the [${data.badge} License](${badgeItem.url}). 
 
 ## Contributing
 
