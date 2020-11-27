@@ -1,43 +1,43 @@
+// Imports the necessary package and js file and set them as variables to be used here
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const badgeInfo = require("./utils/badge");
 
-// array of questions for user
+// array of questions for the user
 const questions = [
     {
         name: 'title',
         message: 'Please enter the title of your project:'
     },
     {
-        // type: 'editor',
         name: 'description',
         message: 'Please enter a description of your project:'
     },
     {
-        // type: 'editor',
         name: 'installation',
-        message: 'Please enter the installation instructions for your project:'
+        message: 'Please enter the installation instructions for your project:',
+        default: 'npm install'
     },
     {
-        // type: 'editor',
         name: 'usage',
         message: 'Please enter the usage information of your project:'
     },
     {
-        // type: 'editor',
         name: 'contributing',
         message: 'Please include the contributers of your project:'
     },
     {
-        // type: 'editor',
         name: 'tests',
-        message: 'Please enter the tests instructions for your project:'
+        message: 'Please enter the tests instructions for your project:',
+        default: 'npm test'
     },
     {
         type: 'list',
-        name: 'badge',
+        name: 'license',
         message: 'Please choose the license from the following list:',
-        choices: ['Apache 2.0','EPL-1.0', 'MIT', 'MPL 2.0', 'Unlicense', 'WTFPL'],
+        choices: Object.keys(badgeInfo)
+        // choices: ['Apache','Eclipse','GNU', 'MIT', 'Mozilla', 'Unlicense', 'WTFPL'],
     },
     {
         name: 'github',
@@ -51,9 +51,11 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    //creates a folder to place the readme file (in case the folder does not exists)
     let dir = './output/';
     fs.mkdir(dir,(error)=>{return});
 
+    //writes the data to the filename
     fs.writeFile(dir+fileName,data,(error)=>{
         (error) ? console.error(error) : console.log("Your README file has been generated!");
     });
@@ -62,7 +64,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer
+        //first prompts the questions
         .prompt(questions)
+        //then calls the generateMarkdown function to get README file content with the user's answers
+        //and calls the writeToFile function to create the file 
         .then(response =>{
             let data = generateMarkdown(response);
             writeToFile('README.md', data)
@@ -71,3 +76,4 @@ function init() {
 
 // function call to initialize program
 init();
+

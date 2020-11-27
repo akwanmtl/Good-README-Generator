@@ -1,10 +1,12 @@
-let badgeInfo = require('./badge');
+// Imports badge.js file to get the object with the information about the licenses
+const badgeInfo = require('./badge');
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  let badgeItem = badgeInfo[data.badge];
-    
-  return `[![License: ${data.badge}](${badgeItem.img})](${badgeItem.url})
+  let badgeItem = badgeInfo[data.license];
+
+  //return the string
+  return `[![License: ${badgeItem.badge}](${badgeItem.img})](${badgeItem.url})
 
 # ${data.title}
 
@@ -31,7 +33,7 @@ ${data.usage}
 
 ## License
 
-${data.title} is under the terms of the [${data.badge} License](${badgeItem.url}). 
+${data.title} is under the terms of the [${data.license} License](${badgeItem.url}). 
 
 ## Contributing
 
@@ -47,5 +49,5 @@ ${data.tests}
 For any question, you can reach me at ${data.email}
       `;
 }
-
+//exports the generateMarkdown function to be used in the index.js
 module.exports = generateMarkdown;
