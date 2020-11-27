@@ -21,7 +21,8 @@ const questions = [
     },
     {
         name: 'usage',
-        message: 'Please enter the usage information of your project:'
+        message: 'Please enter the usage information of your project:',
+        default: 'npm index.js'
     },
     {
         name: 'contributing',

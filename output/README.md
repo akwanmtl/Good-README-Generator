@@ -1,10 +1,10 @@
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# asdf
+# Good README Generator
 
 ## Description 
 
-asdf
+This application helps user to generate a professional looking README file
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@ asdf
 
 ## Installation
 
-asdf
+npm install
 
 ## Usage 
 
-asdf
+npm index.js
 
 ## License
 
-asdf is under the terms of the [Apache License](https://opensource.org/licenses/Apache-2.0). 
+Good README Generator is under the terms of the [MIT License](https://opensource.org/licenses/MIT). 
 
 ## Contributing
 
-asdf
+Jane Smith
 
 ## Tests
 
-asdf
+npm test
 
 ## Questions
 
-[Link to Github Profile](https://github.com/asdf)<br/>
-For any question, you can reach me at asdf
+[Link to Github Profile](https://github.com/akwanmtl)<br/>
+For any question, you can reach me at annie.kwan@mail.mcgill.ca
       
