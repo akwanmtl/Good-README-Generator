@@ -1,10 +1,10 @@
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License: Mozilla](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-# readme generator
+# Readme Generator
 
 ## Description 
 
-asdf
+This application generates a readme file
 
 ## Table of Contents
 
@@ -21,22 +21,22 @@ npm install
 
 ## Usage 
 
-adsf
+node index.js
 
 ## License
 
-readme generator is under the terms of the [Unlicense License](http://unlicense.org/). 
+Readme Generator is under the terms of the [Mozilla License](https://opensource.org/licenses/MPL-2.0). 
 
 ## Contributing
 
-sdfasdf
+
 
 ## Tests
 
-
+npm test
 
 ## Questions
 
-[Link to Github Profile](https://github.com/asdf)<br/>
-For any question, you can reach me at asdf
+[Link to Github Profile](https://github.com/akwanmtl)<br/>
+For any question, you can reach me at akwan.mtl@gmail.com
       
