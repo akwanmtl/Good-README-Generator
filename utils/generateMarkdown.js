@@ -3,10 +3,10 @@ const badgeInfo = require('./badge');
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  let badgeItem = badgeInfo[data.badge];
+  let badgeItem = badgeInfo[data.license];
 
   //return the string
-  return `[![License: ${data.badge}](${badgeItem.img})](${badgeItem.url})
+  return `[![License: ${badgeItem.badge}](${badgeItem.img})](${badgeItem.url})
 
 # ${data.title}
 
@@ -33,7 +33,7 @@ ${data.usage}
 
 ## License
 
-${data.title} is under the terms of the [${data.badge} License](${badgeItem.url}). 
+${data.title} is under the terms of the [${data.license} License](${badgeItem.url}). 
 
 ## Contributing
 

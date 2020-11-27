@@ -1,10 +1,10 @@
-[![License: Mozilla](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Readme Generator
+# asdf
 
 ## Description 
 
-This application generates a readme file
+asdf
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@ This application generates a readme file
 
 ## Installation
 
-npm install
+asdf
 
 ## Usage 
 
-node index.js
+asdf
 
 ## License
 
-Readme Generator is under the terms of the [Mozilla License](https://opensource.org/licenses/MPL-2.0). 
+asdf is under the terms of the [Apache License](https://opensource.org/licenses/Apache-2.0). 
 
 ## Contributing
 
-
+asdf
 
 ## Tests
 
-npm test
+asdf
 
 ## Questions
 
-[Link to Github Profile](https://github.com/akwanmtl)<br/>
-For any question, you can reach me at akwan.mtl@gmail.com
+[Link to Github Profile](https://github.com/asdf)<br/>
+For any question, you can reach me at asdf
       

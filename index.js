@@ -34,7 +34,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'badge',
+        name: 'license',
         message: 'Please choose the license from the following list:',
         choices: Object.keys(badgeInfo)
         // choices: ['Apache','Eclipse','GNU', 'MIT', 'Mozilla', 'Unlicense', 'WTFPL'],
