@@ -4,7 +4,7 @@
 The Good README Generator application helps users to create professional looking README.md files for their projects. The user is asked a series of questions and the generated README.md file will contain the user's answers. This application runs on Node.js.
 
 
-Link to the Github repository: https://github.com/akwanmtl/Coding-Quiz-Challenge
+Link to the Github repository: https://github.com/akwanmtl/Good-README-Generator
 
 ## Table of Contents
 
