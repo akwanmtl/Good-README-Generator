@@ -16,7 +16,8 @@ const questions = [
     {
         // type: 'editor',
         name: 'installation',
-        message: 'Please enter the installation instructions for your project:'
+        message: 'Please enter the installation instructions for your project:',
+        default: 'npm install'
     },
     {
         // type: 'editor',
@@ -31,7 +32,8 @@ const questions = [
     {
         // type: 'editor',
         name: 'tests',
-        message: 'Please enter the tests instructions for your project:'
+        message: 'Please enter the tests instructions for your project:',
+        default: 'npm test'
     },
     {
         type: 'list',
@@ -71,3 +73,4 @@ function init() {
 
 // function call to initialize program
 init();
+

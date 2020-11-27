@@ -1,10 +1,10 @@
-[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-# title of project
+# readme generator
 
 ## Description 
 
-description herer
+asdf
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@ description herer
 
 ## Installation
 
-instruction
+npm install
 
 ## Usage 
 
-asdaf
+adsf
 
 ## License
 
-title of project is under the terms of the [WTFPL License](http://www.wtfpl.net/about/). 
+readme generator is under the terms of the [Unlicense License](http://unlicense.org/). 
 
 ## Contributing
 
-safdasdf
+sdfasdf
 
 ## Tests
 
-asdfd
+
 
 ## Questions
 
-[Link to Github Profile](https://github.com/akwanmtl)<br/>
-For any question, you can reach me at asdfasdfasd
+[Link to Github Profile](https://github.com/asdf)<br/>
+For any question, you can reach me at asdf
       
