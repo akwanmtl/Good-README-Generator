@@ -22,11 +22,11 @@ const questions = [
     {
         name: 'usage',
         message: 'Please enter the usage information of your project:',
-        default: 'npm index.js'
+        default: 'node index.js'
     },
     {
         name: 'contributing',
-        message: 'Please include the contributers of your project:'
+        message: 'Please enter instructions on how people can contribute to your project:'
     },
     {
         name: 'tests',
@@ -38,7 +38,6 @@ const questions = [
         name: 'license',
         message: 'Please choose the license from the following list:',
         choices: Object.keys(badgeInfo)
-        // choices: ['Apache','Eclipse','GNU', 'MIT', 'Mozilla', 'Unlicense', 'WTFPL'],
     },
     {
         name: 'github',

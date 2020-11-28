@@ -1,10 +1,10 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # Good README Generator
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
 
-This application helps user to generate a professional looking README file
+This application helps user generates a professional looking README file
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ npm install
 
 ## Usage 
 
-npm index.js
+in the bash, run node index.js command
 
 ## License
 
@@ -29,7 +29,7 @@ Good README Generator is under the terms of the [MIT License](https://opensource
 
 ## Contributing
 
-Jane Smith
+This project is not accepting contribution right now.
 
 ## Tests
 
