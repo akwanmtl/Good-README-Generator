@@ -6,9 +6,9 @@ function generateMarkdown(data) {
   let badgeItem = badgeInfo[data.license];
 
   //return the string
-  return `[![License: ${badgeItem.badge}](${badgeItem.img})](${badgeItem.url})
+  return `# ${data.title}
 
-# ${data.title}
+  [![License: ${badgeItem.badge}](${badgeItem.img})](${badgeItem.url})
 
 ## Description 
 
