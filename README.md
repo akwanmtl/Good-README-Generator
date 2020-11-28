@@ -22,7 +22,7 @@ npm install
 ## Usage 
 
 To run the application, use the following command:
-```bash
+```
 node index.js
 ```
 You are then asked for the following information about your project:
@@ -38,7 +38,7 @@ You are then asked for the following information about your project:
 You enter/choose your answers in the command line. After you finish to answer the questions, the README.md file is generated in the ./output folder.
 
 Here is the video showing how the application is used.
-![Video of Good README Generator]() 
+![Video of Good README Generator](assets/Good README Generator Demo.mp4) 
 
 ## Credits
 
