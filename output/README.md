@@ -29,7 +29,7 @@ Good README Generator is under the terms of the [MIT License](https://opensource
 
 ## Contributing
 
-This project is not taking contribution at the moment.
+This project is not accepting contribution at the moment
 
 ## Tests
 
