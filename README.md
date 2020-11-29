@@ -37,7 +37,7 @@ You are then asked for the following information about your project:
 You enter/choose your answers in the command line. After you finish to answer the questions, the README.md file is generated in the ./output folder.
 
 Click on the GIF to see a narrated version of the demo.
-[![Video of Good README Generator](assets/demo.gif)](https://drive.google.com/file/d/1mi1w5kN023ABZyVbmKDiUnCbrVAqPlDM/view?usp=sharing) 
+[![Video of Good README Generator](assets/demo.gif)](https://drive.google.com/file/d/1HNWNoUc-3-15RezdgraPBDcfCmuTXvXJ/view?usp=sharing) 
 
 You can the output README.md file [here](https://github.com/akwanmtl/Good-README-Generator/tree/main/output).
 
