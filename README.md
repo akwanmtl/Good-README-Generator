@@ -1,8 +1,7 @@
 # Good-README-Generator
 
 ## Description
-The Good README Generator application helps users to create professional looking README.md files for their projects. The user is asked a series of questions and the generated README.md file will contain the user's answers. This application runs on Node.js.
-
+The Good README Generator application helps users to create professional looking README.md files for their projects. The user is asked a series of questions and the generated README.md file will contain the user's answers. The project is written in Javascript ES6 and the application is executed on Node.js.
 
 Link to the Github repository: https://github.com/akwanmtl/Good-README-Generator
 

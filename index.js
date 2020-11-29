@@ -71,6 +71,9 @@ function init() {
         .then(response =>{
             let data = generateMarkdown(response);
             writeToFile('README.md', data)
+        })
+        .catch(err =>{
+            console.error(err);
         });
 }
 
