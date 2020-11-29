@@ -45,7 +45,7 @@ ${data.tests}
 
 ## Questions
 
-[Link to Github Profile](https://github.com/${data.github})<br/>
+You can see my Github profile and other projects by clicking [here](https://github.com/${data.github})<br/>
 For any question, you can reach me at ${data.email}
       `;
 }
